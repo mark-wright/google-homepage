@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Sans-Serif;
+}
+
+table {
+    font-size: 80%;
+    color: #31343a;
+}
+
+.logo {
+    color: #3075ff;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 600%;
+    letter-spacing: 0.00005em;
+    margin-bottom: -38px;
+}
+
+p {
+    font-size: 110%;
+    margin-left: 240px;
+}
+
+.red {
+    color: #e83f3c;
+}
+
+.orange {
+    color: #f9c563;
+}
+
+.green {
+    color: #3d9951;
+}
+
+.white {
+    color: white;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    background-color: #e83f3c;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.mostviewed {
+    justify-content: center;
+    display: grid;
+    grid-template: repeat(2,120px) / repeat(4,150px);
+    grid-gap: 20px;
+}
+
+.page {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    height: 120px;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.page img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.a .b .c .d .e .f .g .h {
+    align-self: center;
+    justify-self: center;
+}
+
+td img{
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.search{
+    text-align: center;
+}
+
+input[type=text]{
+    width: 644px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+}
+
+input, input::-webkit-input-placeholder {
+    font-size: 100%;
+}
